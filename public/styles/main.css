@@ -1,0 +1,46 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+#welcome {
+  background-color: pink
+}
+
+.social {
+  width: 15vw;
+  height: 15vh;
+  background-color: blue;
+  display: inline-block;
+}
+
+#about {
+  background-color: pink
+}
+
+#portfolio {
+  background-color: green
+}
+
+#contact {
+  height: 30vh;
+  width: 100vw;
+  background-color: purple
+}
+
+#github {
+  background-image: url('../assets/github-128.png');
+  background-size: fill;
+  background-color: #fafafa;
+}
+
+#name {
+  text-align: center;
+  position: absolute;
+  top: 25vh;
+  height: auto;
+  width: 100vw;
+  font-size: 80px;
+  font-family: 'Playfair Display SC', serif;
+  border-bottom: 5px solid black
+}
