@@ -1,5 +1,6 @@
 * {
   background-color: #fffaf0;
+  font-family: 'Playfair Display SC', serif;
 }
 
 #welcome {
@@ -11,54 +12,39 @@
   height: 80vh;
 }
 
-.letters {
-  display: inline-block;
-  color: #23154A;
-  font-size: 5.5em;
-  font-family: 'Playfair Display SC', serif;
-}
-
 #name {
-  width: 80vw;
-  height: 100vh;
-  position: relative;
-  left: 10vw;
+  color: #0b0010;
 }
 
 #first {
-  display: inline-block;
-  width: 50%;
-  text-align: right;
+  text-align: center;
+  position: absolute;
+  width: 50vw;
+  font-size: 7em;
 }
 
 #last {
-  display: inline-block;
-  width: 49%;
-  text-align: left;
-}
-
-.capital {
-  display: inline-block;
-  text-align: right;
-  color: #23154A;
+  text-align: center;
+  position: absolute;
+  width: 50vw;
   font-size: 7em;
-  font-family: 'Playfair Display SC', serif;
-  z-index: 1;
 }
 
-#D {
+#title {
+  font-size: 1.25em;
+  position: absolute;
+  text-align: center;
+  width: 40vw;
+  left: 30vw;
 }
 
 .bar {
-  position: relative;
+  position: absolute;
   height: 1vh;
 }
 
 #bar-one {
   background-color: #a7414a;
-  top: 38vh;
-  width: 50vw;
-  left: 25vw;
 }
 
 #bar-two {
@@ -85,7 +71,7 @@
   width: 80vw;
 }
 
-#title {
+#project-header {
   position: absolute;
   text-align: center;
   width: 50vw;
